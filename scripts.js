@@ -1,13 +1,27 @@
 let tipCalculator;
-tipCalculator = function(total, tipRate) {
-  // step 1:
-  let tipAmount;
-  tipAmount = tipRate * total;
-  // and step 2:
-  $("#response").html("Your tip is $" + tipAmount);
+tipCalculator = function(multiVariable, divVariable) {
+  let multiTotal;
+  let divTotal;
+  if(tipAmount < 1){
+    multiTotal = total * tipAmount;
+    $("#response").html("Your tip is $" + multiTotal);}else{
+      divTotal = total % tipAmount;
+      $("#response").html("Your tip is $" + divTotal);
+    }
+  };
+let tipAmount;
+tipAmount = 0.2;
+let total;
+total = 50;
+tipCalculator();
+/*
+let makeABurrito;
+makeABurrito = function(beansVariable){
+  let beansResponse;
+  beansResponse = "You ordered " + beansVariable + " beans. Good choice!";
+  $("#response").html(beansResponse);
 };
-
-//Now call (or "execute") the function, passing a
-//total of $50.00 and a tipRate of 20%;
-
-tipCalculator(50.00, 0.2);
+let blackBeans;
+blackBeans = "black";
+makeABurrito(blackBeans);
+*/
