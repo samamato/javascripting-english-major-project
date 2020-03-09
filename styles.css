@@ -1,0 +1,22 @@
+h1 {
+  color: #58E225;
+}
+h2{
+  color: #FD7373;
+}
+div {
+  color: #58E225;
+}
+p {
+  color: #FD7373;
+}
+.second-paragraph {
+  color: #58E225;
+}
+#third-paragraph {
+  color: #FD7373;
+}
+
+p.lead{
+  color: #59D8FB;
+}

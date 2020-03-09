@@ -56,7 +56,12 @@ turtleNames = turtles.join(" ");
 turtles.push("Splinter");
 turtles.pop();
 */
+/*
 let animal;
 animal = ["dog", "cat", "bird", "hamster", "rat"];
 let lastanimal=animal.pop();
 $("#response").html(lastanimal);
+*/
+$("p").html("Turtle eating strawberry");
+$(".first-paragraph").addClass("lead");
+$("#response").html("Look!");
