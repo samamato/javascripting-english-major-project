@@ -1,22 +1,44 @@
-h1 {
-  color: #58E225;
-}
-h2{
-  color: #FD7373;
-}
-div {
-  color: #58E225;
-}
-p {
-  color: #FD7373;
-}
-.second-paragraph {
-  color: #58E225;
-}
-#third-paragraph {
-  color: #FD7373;
+body {
+  font-family: 'Quicksand', sans-serif;;
 }
 
-p.lead{
-  color: #59D8FB;
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
 }
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-item {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#title {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#response {
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+/*.second-paragraph {
+  color: #b58900;
+}
+#third-paragraph {
+  color: #d33682;
+}
+p.lead {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+/*
