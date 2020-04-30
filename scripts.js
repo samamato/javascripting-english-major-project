@@ -64,5 +64,5 @@ $("#response").html(lastanimal);
 
 $("p").html("Turtle eating strawberry");
 $(".first-paragraph").addClass("lead");
-$("#response").html("Look!");
 */
+$("#response").html("Here is my project");

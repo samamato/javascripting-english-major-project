@@ -99,7 +99,7 @@ body, html {
     </div>
   </div>
 </nav>
-      <div id ="title"><h1>This is my project!</h1></div>
+      <div id ="title"><h1>Welcome!</h1></div>
       <br><div id="response">This is the #response div. It corresponds to my
       scripts.js file. If I initialize my scripts.js file, this repsonse will change.</div></br>
 
@@ -121,73 +121,75 @@ body, html {
       var myLayer = L.mapbox.featureLayer().addTo(map);
 
       var geoJson = [{
-          type: 'Feature',
-          "geometry": { "type": "Point", "coordinates": [-6.395667, 53.983818]},
-          "properties": {
-              'title': 'Molloy Media Archaeology',
-              'marker-color': '#FFFFFF',
-              'marker-symbol': 'circle',
-              'marker-size': 'large',
+        type: 'Feature',
+        "geometry": { "type": "Point", "coordinates": [-81.581986, 28.4180782]},
+        "properties": {
+            'title': 'Crystal Palace',
+            'marker-color': '#fffc40',
+            'marker-symbol': 'restaurant',
+            'marker-size': 'medium',
 
-              // Store the image url and caption in an array.
-              'images': [
-                ['http://molloymediaarchaeology.org/images/droneabove.jpg','You are about to experience an interactive map and <a href="http://molloyenglish.org/omeka-2.4">archive</a> of the Boyne Valley in Northeastern Ireland. The map and <a href="http://molloyenglish.org/omeka-2.4">archive</a> were created in the spring of 2016 by the students of SAP 261 [Media Archaeology] in consultation with <a href="http://mapplega.com">Matt Applegate</a>, <a href="http://www.jamesncohen.com/">Jamie Cohen</a>, <a href="http://margaretdelima.com/home.html">Maraget DeLima</a>, and Destinee Day.'],          ['http://molloymediaarchaeology.org/images/dkitwide.jpg','Students completed this map and archive along with a certificate in <a href="https://www.dkit.ie/news/dkit-unveils-new-programme-certificate-cultural-landscapes-newgrange-boyne-valley">Cultural Landscapes</a> at <a href="https://www.dkit.ie/">DkIT</a>, Dundalk Institute of Technology, led by professor <a href="https://www.dkit.ie/users/dr-conor-brady">Conor Brady</a>.'],
-                ['http://molloymediaarchaeology.org/images/molloylogo.jpg', '<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Molloy Media Archaeology Map & Archive</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://molloymediaarchaeology.org/archive" property="cc:attributionName" rel="cc:attributionURL">SAP 261</a>, led by <a href="http://mapplega.com">Matt Applegate</a>, <a href="http://www.jamesncohen.com/">Jamie Cohen</a>, & <a href="http://margaretdelima.com/home.html">Margaret DeLima</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. <br><br>Our map is powered by <a href="http://mapbox.com">Mapbox</a> and our archive is powered by <a href="http://omeka.org">Omeka!</a>']
+            // Store the image url and caption in an array.
+            'images': [
+              ['https://live.staticflickr.com/65535/49833035032_6e6811dab4_b.jpg','Built and ready for opening day, The Crystal Palace has been in Magic Kingdom since the beginning. Inspired by Victorian greenhouses of the late 1800s, it&#39;s filled with lights, topiaries and tropical palms. The Crystal Palace is a breakfast and dinner buffet where you can dine with your favorites from The Hundred Acre Woods'],
+              ['https://live.staticflickr.com/65535/49809941433_863d1fa634_b.jpg','This is my family&#39;s number one spot for breakfast! It&#39;s another must do on my list of Disney World must dos. Don&#39;t be fooled, all the breakfast foods are the same at any buffet style dining option you choose, but who doesn&#39;t love dining with Winnie the Pooh right near Cinderella&#39;s Castle on Main Street.'],
+              ['https://live.staticflickr.com/65535/49832726876_5f87a6a794_b.jpg', 'It&#39;s become a nostalgic place for me; making it a necessity on every trip. Winnie the Pooh is a long time favorite of mine so it just wouldn&#39;t feel right going on a trip and not visiting him. On my trip we had a great waiter and Disney knows how to make birthdays special. The waiters sing and bring a cupcake and card signed by the characters at the restaurant.']
               ]
           }
       }, {
         type: 'Feature',
         "geometry": { "type": "Point", "coordinates": [-81.5515847, 28.3752904]},
         "properties": {
-        'title': 'Epcot Ball',
+        'title': 'Epcot',
         'marker-color': '#53d6fd',
         'marker-symbol': 'circle',
         'marker-size': 'medium',
         'images': [
-        ['https://live.staticflickr.com/65535/49743061232_a77acdfa86_b.jpg','she pretty.'],
-        ['https://live.staticflickr.com/65535/49743061202_fd52e4879f_b.jpg','i love her.'],
-        ['https://live.staticflickr.com/65535/49742189373_6d165a22e7_b.jpg','my favorite golf ball.']
+        ['https://live.staticflickr.com/65535/49832726811_d5c865f58c_b.jpg','Opening 11 years after the park&#39;s official opening is the second of the four parks, Epcot. It is dedicated to the celebration of human achievement, namely technological innovation, and international culture. It currently features two distinct areas, Future World and World Showcase.'],
+        ['https://live.staticflickr.com/65535/49832726746_78c109975d_b.jpg','Future World consists of a variety of avant-garde pavilions exploring innovative aspects and applications like technology and science. Each pavilion features its own attractions and distinct architecture. The World Showcase consists of eleven pavilions around a large man-made lake in the center. Each is themed to represent a specific country with themed architecture, landscapes, streetscapes, attractions, shops and restaurants.'],
+        ['https://live.staticflickr.com/65535/49832189713_ed2ed1d03c_b.jpg','Epcot is also home to a few different festivals throughout the year. During my trip I was able to experience the Flower and Garden Festival. It features flowers blooming everywhere, a butterfly garden, themed treats and drinks and topiary sculptures of Disney characters at every corner. It was a really cool festival that I definitely recommend going to.']
               ]
           }
       }, {
-          type: 'Feature',
-          "geometry": { "type": "Point", "coordinates": [-73.6291694641113, 40.6866260456405]},
-          "properties": {
-              'title': 'Molloy College',
-              'marker-color': '#a01f2c',
-              'marker-symbol': 'college',
-              'marker-size': 'medium',
-              'images': [
-                ['https://upload.wikimedia.org/wikipedia/en/6/61/MolloyCollege_Logo.png','This is where I teach Coding for the Humanities!'],
-                ['https://www.molloy.edu/Images/NMD_Acad_2018.jpg','I love New Media!'],
-                ['https://pbs.twimg.com/media/D1eev5CXQAYm_7x.jpg','Don\'t you?']
+        type: 'Feature',
+        "geometry": { "type": "Point", "coordinates": [-81.5741486, 28.3713801]},
+        "properties": {
+            'title': 'Fantasmic!',
+            'marker-color': '#e32400',
+            'marker-symbol': 'cinema',
+            'marker-size': 'medium',
+            'images': [
+              ['https://live.staticflickr.com/65535/49836692532_58bd755f5f_o.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/2ElC80K90KE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br> Located in the Hollywood Hills Amphitheater at Hollywood Studios, Fantasmic! is filled with action, live actors, water effects, pyrotechnics, lasers, music, audio-animatronics, mist projections, fireworks, and a bunch of cameos from everyone\'s favorite characters.'],
+              ['https://live.staticflickr.com/65535/49832726856_a3ab49d8fa_b.jpg','With its large amphitheater curving around the lagoon, there are no bad seats in the house. The theater is designed after the famous Hollywood Bowl and has 6,900 seats, with standing room for an additional 3,000!'],
+              ['https://live.staticflickr.com/65535/49836388496_3a383d59aa_o.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/g4CNZnKWcwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br> Fantasmic! is the perfect ending to a day in Hollywood Studios! I know it\'s mine. I\'m probably not alone when I say the ending is definitely the best part! The show\'s music is great and overall it\'s a fantastic show because it incorporates so many different movies and show effects.']
               ]
           }
       }, {
-          type: 'Feature',
-          "geometry": { "type": "Point", "coordinates": [-6.2603, 53.349805]},
-          "properties": {
-              'title': 'Dublin, Ireland',
-              'marker-color': '#FFFFFF',
-              'marker-symbol': 'city',
-              'marker-size': 'large',
-              'images': [
-                ['http://molloymediaarchaeology.org/images/dublintown.jpg','Students spent Sunday, May 29 in Dublin, Ireland.'],
-                ['http://molloymediaarchaeology.org/images/jervis.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/O31ciXE9tns" frameborder="0" allowfullscreen></iframe>','Students documented what they saw and experienced.']
+        type: 'Feature',
+        "geometry": { "type": "Point", "coordinates": [-81.5768447, 28.4157167]},
+        "properties": {
+        'title': 'Contemporary Resort',
+        'marker-color': '#e392ff',
+        'marker-symbol': 'lodging',
+        'marker-size': 'medium',
+        'images': [
+        ['https://orlandothemeparkzone.com/wp-content/uploads/2019/11/Contemporary2Bhotel-640x384.jpg','The Contemporary is one of the two oldest hotels on property. It&#39;s an ultra-modern resort that features award-winning dining for all meals of the day, spectacular views and pools, and easy monorail access to Magic Kingdom.'],
+        ['https://live.staticflickr.com/65535/49832726901_f3c88175a2_b.jpg','Chef Mickey&#39;s is a very popular restaurant located in the hotel. It&#39;s a character buffet that offers family-friendly cuisine for breakfast, brunch or dinner. My family went for brunch and we had a good time! Overall I liked its bright retro vibe and of course the Mickey Waffles. Also who doesn&#39;t love a photo opportunity before you eat!'],
+        ['https://live.staticflickr.com/65535/49832189733_641212effa_b.jpg','A small bit of the hotel I love is the 90-foot-tall mural by Disney Legend Mary Blair. The mural celebrates the Grand Canyon and American Southwest. Mary Blair is responsible for the distinct look and feel of the classic attraction <q>it&#39;s a small world</q>. I love the ride&#39;s design and find this mural just as interesting!']
               ]
           }
       }, {
-          type: 'Feature',
-          "geometry": { "type": "Point", "coordinates": [-6.42425, 53.72220]},
-          "properties": {
-              'title': 'The Memory Sculpture',
-              'marker-color': '#FFD700',
-              'marker-symbol': 'monument',
-              'marker-size': 'medium',
-              'images': [
-                ['http://molloymediaarchaeology.org/images/adriana_memory2.jpg','The Memory Sculpture is another piece kept within the Walled Gardens.'],
-                ['http://molloymediaarchaeology.org/images/grant_pole2.jpg','The sculpture is a remnant of another tree present at the Battle of the Boyne.'],
-                ['http://molloymediaarchaeology.org/images/grant_pole4.jpg','The wooden monument is intended to serve as a reminder to visitors that history never goes away -- it is forever present and forever a part of the people it touches.']
+        type: 'Feature',
+        "geometry": { "type": "Point", "coordinates": [-81.5871866, 28.41917]},
+        "properties": {
+        'title': 'Splash Mountain',
+        'marker-color': '#669d34',
+        'marker-symbol': 'water',
+        'marker-size': 'medium',
+        'images': [
+        ['https://live.staticflickr.com/65535/49832726711_17a3ee0631_b.jpg','Splash Mountain is a log flume ride based on the characters, stories, and songs from the Disney film <i>Song of the South</i> that was released in 1946. It begins with a peaceful float-through that leads to indoor dark ride segments, then the big drop into a <q>briar patch</q> and finishes off with a happy indoor finale.'],
+        ['https://live.staticflickr.com/65535/49833035037_1d1dde867d_b.jpg','Splash Mountain is located in three Disney parks worldwide. Each of the three have different features and story variations but all follow the same flow. Disney World’s version is the longest at 11:45 and features 5 drops. The tallest being a 52.2 foot drop.'],
+        ['https://live.staticflickr.com/65535/49835673098_1265127693_b.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/LUsgniDbYgs" frameborder="0" allowfullscreen></iframe> <br> Splash Mountain is by far my favorite ride! I’m a big fan of water rides and I love the thrill. It also has a memorable soundtrack that I sing-along to every time I ride, and a cute story that is enjoyable from start to finish.']
               ]
           }
       }];
@@ -254,7 +256,9 @@ body, html {
       <!-- SET THE MAP VIEW HERE -->
       map.setView([41, -74], 7);
       </script>
-      <br><p>This is the first paragraph of my webpage, despite the div above.</p></br>
+      <br><p>Disney was a staple of my childhood and is why I’m now one of those crazy ‘Disney Adults’. It’s basically a personality trait at this point. I live and breathe all things Disney and as I got older the obsession only got worse. From an early age I had all the Disney toys, pajamas, and movies on VHS. My parents had me hooked. Aside from that, my parents took my sister and me to Disney World many times and it quickly became one of my favorite places to be. I feel like I sound a little crazy but it’s truly become my happy place. I can’t be mad when I’m there, it’s always just pure joy. I mean come on Cinderella’s Castle is beautiful. That feeling of walking down Main Street and seeing it is just a feeling like no other. It’s my top place to be and that’s why I decided to spend my 21st birthday at the ‘Happiest Place on Earth’. </p></br>
+      <p>My map shows some of my favorites at Walt Disney World. I ended up picking one spot from each category. My map shows my favorite park, hotel, ride, restaurant, and show. When you take a look at my map you’ll get to learn a little about my favorite spots and why they are my favorites. Although I’ve been to Disney a handful of times, it’s important to mention that any trip I reference is my birthday trip from last June. That trip holds a special place in my heart. It was the first time I had been back to Disney since I was 15 and it felt so different. In a way it felt like I never left, but it also felt so new and exciting. I definitely found a new appreciation for the parks on that trip. I also planned our entire trip from start to finish to ensure we did as much as possible in the short time we were there. Truly a trip I’ll never forget and just solidified why Disney is so special to me. </p>
+      <br></br>
     </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
